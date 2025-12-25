@@ -31,19 +31,16 @@ body {
 /* Header */
 header {
     text-align: center;
-    padding: 3rem 0;
-}
-
-.logo {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    padding: 4rem 0 3rem 0;
 }
 
 h1 {
-    font-size: 2rem;
-    font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: 300;
     color: #ffffff;
     margin-bottom: 0.5rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
 
 .tagline {
@@ -87,12 +84,6 @@ h2 {
 
 .project-card:hover {
     border-color: #ffffff;
-}
-
-.project-icon {
-    font-size: 1.5rem;
-    display: block;
-    margin-bottom: 1rem;
 }
 
 .project-card h3 {
