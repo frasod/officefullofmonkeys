@@ -71,3 +71,29 @@
 - No rush to cancel Premium Light - it's paid until Jan 2026
 - Domain is safe until Dec 2026
 - Can migrate hosting anytime (site is ready now)
+
+---
+
+## GitHub Pages Setup Log
+
+### Dec 24, 2025 - Initial DNS Configuration
+- **Status**: DNS check unsuccessful (InvalidCNAMEError)
+- **Issue**: Custom subdomain `www.officefullofmonkeys.com` not properly configured
+- **Required**: CNAME record pointing to `frasod.github.io`
+- **Current DNS**: CNAME record created at Wix pointing `www` → `frasod.github.io`
+- **TLS Certificate**: Provisioning in progress (up to 15 minutes)
+- **Action**: Wait for DNS propagation (5-60 minutes), then check again
+
+### DNS Configuration at Wix
+```
+Type: CNAME
+Host: www.officefullofmonkeys.com
+Value: frasod.github.io
+TTL: 1 Hour
+```
+
+### Troubleshooting
+- DNS changes can take up to 48 hours to propagate globally
+- GitHub needs to verify CNAME before issuing HTTPS certificate
+- Use `dig www.officefullofmonkeys.com` to check DNS propagation
+- Once DNS check passes, enable "Enforce HTTPS" in GitHub Pages settings
