@@ -1,14 +1,20 @@
 # Domain & Subscription Log
 
-## Current Status (as of Dec 24, 2025)
+## Current Status (as of Dec 25, 2025)
 
-### Domain: officefullofmonkeys.com
+### Domain: thyran.com ✨ LIVE!
+- **Status**: Live at https://thyran.com/
+- **Registrar**: (New domain - details TBD)
+- **Deployed**: Dec 25, 2025
+- **Hosting**: GitHub Pages (FREE)
+
+### Old Domain: officefullofmonkeys.com
 - **Registrar**: Wix.com
 - **Last Payment**: Jan 27, 2024
 - **Expires**: Dec 28, 2026
 - **Auto-Renew**: OFF ✅
 - **Cost**: ~$30/year ($60 for 2 years)
-- **Action Needed**: Consider transferring to cheaper registrar before expiration
+- **Status**: Can be retired or redirected
 
 ### Premium Plan: Light
 - **Provider**: Wix.com
@@ -22,12 +28,12 @@
 
 ## Migration Plan
 
-### Phase 1: Setup (Now - Jan 2026)
+### Phase 1: Setup (COMPLETED ✅)
 - [x] Create static landing page locally
-- [ ] Push to GitHub repository
-- [ ] Test on GitHub Pages with temporary URL
-- [ ] Add GitHub Sparks app links
-- [ ] Add Substack link
+- [x] Push to GitHub repository
+- [x] Test on GitHub Pages with temporary URL
+- [x] Deploy to thyran.com
+- [x] Site live at https://thyran.com/
 
 ### Phase 2: Hosting Migration (Jan - Dec 2026)
 - [ ] Deploy to GitHub Pages or Cloudflare Pages (FREE)
@@ -76,6 +82,13 @@
 
 ## GitHub Pages Setup Log
 
+### Dec 25, 2025 - thyran.com LIVE! 🎉
+- **Status**: Successfully deployed
+- **URL**: https://thyran.com/
+- **Hosting**: GitHub Pages
+- **Project**: Philosophy library with 534 books, 66,321 passages, 294 authors
+- **Features**: Searchable database with era-based filtering (Greek, Eastern, Roman, Medieval, Renaissance, Enlightenment, Modern)
+
 ### Dec 24, 2025 - Initial DNS Configuration
 - **Status**: DNS check unsuccessful (InvalidCNAMEError)
 - **Issue**: Custom subdomain `www.officefullofmonkeys.com` not properly configured
@@ -83,14 +96,6 @@
 - **Current DNS**: CNAME record created at Wix pointing `www` → `frasod.github.io`
 - **TLS Certificate**: Provisioning in progress (up to 15 minutes)
 - **Action**: Wait for DNS propagation (5-60 minutes), then check again
-
-### DNS Configuration at Wix
-```
-Type: CNAME
-Host: www.officefullofmonkeys.com
-Value: frasod.github.io
-TTL: 1 Hour
-```
 
 ### Troubleshooting
 - DNS changes can take up to 48 hours to propagate globally
