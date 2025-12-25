@@ -39,7 +39,10 @@ header {
     max-width: 800px;
     height: auto;
     margin-bottom: 2rem;
-    border: 1px solid #333333;
+    border: 2px solid #333333;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    object-fit: cover;
 }
 
 h1 {
