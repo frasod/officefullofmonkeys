@@ -143,6 +143,38 @@ footer {
     font-size: 0.85rem;
 }
 
+/* Articles */
+.articles {
+    margin-top: 3rem;
+}
+
+.article-list {
+    list-style: none;
+    padding: 0;
+}
+
+.article-list li {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #222222;
+}
+
+.article-list li:last-child {
+    border-bottom: none;
+}
+
+.article-list a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 300;
+    transition: color 0.2s ease;
+}
+
+.article-list a:hover {
+    color: #888888;
+}
+
 /* Floating Monkeys - Hidden for minimal theme */
 .floating-monkeys {
     display: none;
