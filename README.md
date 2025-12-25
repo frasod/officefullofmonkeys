@@ -1,6 +1,25 @@
 # Office Full of Monkeys 🐵
 
-A landing page for showcasing projects and apps.
+## Conceptual Framework
+
+**DADA · KAFKA · ABSURDISM · AVANT-GARDE**
+
+This portal exists in the liminal space between sense and nonsense, where typewriters produce Shakespeare and bureaucracy becomes art. Some projects inspire. Some perplex. Some do both simultaneously.
+
+### Thematic Pillars
+
+- **Dadaist Spirit**: Embracing chance, chaos, and the deliberate rejection of reason
+- **Kafkaesque Layers**: Endless corridors of logic that loop back on themselves
+- **Absurdist Play**: Meaninglessness as a feature, not a bug
+- **Avant-Garde Experimentation**: The strange, the unexpected, the beautifully broken
+
+**"The fact that I exist proves nothing."** - Some monkey, probably
+
+---
+
+## Portal Manifest
+
+A landing page for showcasing projects and apps that range from genuinely useful to delightfully useless.
 
 ## Quick Start
 
